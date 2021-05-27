@@ -1,0 +1,10 @@
+$(()=>{
+    $('.draw_circle').on('click',()=>{
+        $('.square').removeClass('none')
+        $('.circle').addClass('none')
+    })
+    $('.draw_square').on('click',()=>{
+        $('.circle').removeClass('none')
+        $('.square').addClass('none')
+    })
+})
